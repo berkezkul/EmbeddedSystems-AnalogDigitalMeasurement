@@ -333,67 +333,10 @@ namespace UpdateKTS
 
         }
 
-
-
-
-
-        private void InitializeDigital(){
-            try{// Dijital çıkış görevini oluşturun
-                digitalOutTask = new NationalInstruments.DAQmx.Task();
-                digitalOutTask.DOChannels.CreateChannel("Dev1/port0/line0", "", ChannelLineGrouping.OneChannelForAllLines);
-                writer1 = new DigitalSingleChannelWriter(digitalOutTask.Stream);
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show("Hata: " + ex.Message);
-            }
-        }
-
-        public void TurnOnLed()
+        private void label_okumaSıklıgı_Click(object sender, EventArgs e)
         {
-            try{
-                // LED'i açın (Dijital çıkışa "1" göndererek)
-                if(writer1 != null)
-                {
-                    writer1.WriteSingleSampleSingleLine(true, true);
-                }
-            }
-            catch (Exception ex)
-            {
-             MessageBox.Show("Hata: " + ex.Message);
-            }
+
         }
-
-        public void TurnOffLed()
-        {
-            try
-            {
-                // LED'i kapatın (Dijital çıkışa "0" göndererek)
-                if(writer1 != null)
-                {
-                    writer1.WriteSingleSampleSingleLine(true, false);
-                }
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show("Hata: " + ex.Message);
-            }
-        }
-
-        private void textBox_dijital_TextChanged(object sender, EventArgs e)
-        {
-            if (textBox_dijital.Text == "True")
-            {
-                TurnOnLed();
-            }
-            else
-            {
-                TurnOffLed();
-            }
-        }
-
-
-        
     }
 }
 

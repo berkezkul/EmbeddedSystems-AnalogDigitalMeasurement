@@ -40,7 +40,6 @@ namespace UpdateKTS
 
         private void dataGridView_kayıtlar_CellEnter(object sender, DataGridViewCellEventArgs e)
         {
-            textBox_ktsNo.Text = dataGridView_kayıtlar.CurrentRow.Cells[1].Value.ToString();
             textBox_testNo.Text = dataGridView_kayıtlar.CurrentRow.Cells[2].Value.ToString();
             textBox_testiGerceklestiren.Text = dataGridView_kayıtlar.CurrentRow.Cells[3].Value.ToString();
         }
@@ -49,7 +48,6 @@ namespace UpdateKTS
         {
             string sorgu = "INSERT INTO ktsKayıtları(KtsSeriNo, TestNumarasi, TestiGerceklestiren) VALUES(@KtsSeriNo, @TestNumarasi, @TestiGerceklestiren)";
             komut = new SqlCommand(sorgu, baglanti);
-            komut.Parameters.AddWithValue("@KtsSeriNo", textBox_ktsNo.Text);
             komut.Parameters.AddWithValue("@TestNumarasi", textBox_testNo.Text);
             komut.Parameters.AddWithValue("@TestiGerceklestiren", textBox_testiGerceklestiren.Text);
             baglanti.Open();
@@ -85,7 +83,6 @@ namespace UpdateKTS
 
                 string sorgu = "UPDATE ktsKayıtları SET KtsSeriNo=@KtsSeriNo, TestNumarasi=@TestNumarasi, TestiGerceklestiren=@TestiGerceklestiren WHERE TestNumarasi=@TestNo";
                 komut = new SqlCommand(sorgu, baglanti);
-                komut.Parameters.AddWithValue("@KtsSeriNo", textBox_ktsNo.Text);
                 komut.Parameters.AddWithValue("@TestNumarasi", textBox_testNo.Text);
                 komut.Parameters.AddWithValue("@TestiGerceklestiren", textBox_testiGerceklestiren.Text);
                 komut.Parameters.AddWithValue("@TestNo", testNo);
@@ -103,12 +100,12 @@ namespace UpdateKTS
 
         private void button_basla_Click(object sender, EventArgs e)
         {
-            string ktsSeriNo = textBox_ktsNo.Text;
+            
             string testNumarası = textBox_testNo.Text;
             string testiGerceklestiren = textBox_testiGerceklestiren.Text;
 
 
-            if (string.IsNullOrEmpty(ktsSeriNo) || string.IsNullOrEmpty(testNumarası) || string.IsNullOrEmpty(testiGerceklestiren))
+            if (string.IsNullOrEmpty(testNumarası) || string.IsNullOrEmpty(testiGerceklestiren))
             {
                 label_hata.Text = "Lütfen tüm alanları doldurun.";
             }
@@ -118,6 +115,16 @@ namespace UpdateKTS
                 form2.Show();
                 this.Hide();
             }
+        }
+
+        private void label_title_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label_testiGerceklestiren_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

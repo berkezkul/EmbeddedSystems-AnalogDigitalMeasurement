@@ -30,13 +30,13 @@ namespace UpdateKTS
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea3 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend3 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series4 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.Series series5 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea4 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend4 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series6 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea5 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend5 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series7 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.Series series8 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea6 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend6 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series9 = new System.Windows.Forms.DataVisualization.Charting.Series();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.groupBox_analog = new System.Windows.Forms.GroupBox();
             this.chart_analog = new System.Windows.Forms.DataVisualization.Charting.Chart();
@@ -112,30 +112,30 @@ namespace UpdateKTS
             this.groupBox_analog.Size = new System.Drawing.Size(591, 960);
             this.groupBox_analog.TabIndex = 20;
             this.groupBox_analog.TabStop = false;
-            this.groupBox_analog.Text = "Analog Değerler";
+            this.groupBox_analog.Text = "Analog Values";
             // 
             // chart_analog
             // 
-            chartArea3.Name = "ChartArea1";
-            this.chart_analog.ChartAreas.Add(chartArea3);
-            legend3.Name = "Legend1";
-            this.chart_analog.Legends.Add(legend3);
+            chartArea5.Name = "ChartArea1";
+            this.chart_analog.ChartAreas.Add(chartArea5);
+            legend5.Name = "Legend1";
+            this.chart_analog.Legends.Add(legend5);
             this.chart_analog.Location = new System.Drawing.Point(0, 531);
             this.chart_analog.Name = "chart_analog";
-            series4.BorderWidth = 3;
-            series4.ChartArea = "ChartArea1";
-            series4.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
-            series4.Color = System.Drawing.Color.Navy;
-            series4.Legend = "Legend1";
-            series4.Name = "ai1";
-            series5.BorderWidth = 3;
-            series5.ChartArea = "ChartArea1";
-            series5.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
-            series5.Color = System.Drawing.Color.Red;
-            series5.Legend = "Legend1";
-            series5.Name = "ai2";
-            this.chart_analog.Series.Add(series4);
-            this.chart_analog.Series.Add(series5);
+            series7.BorderWidth = 3;
+            series7.ChartArea = "ChartArea1";
+            series7.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
+            series7.Color = System.Drawing.Color.Navy;
+            series7.Legend = "Legend1";
+            series7.Name = "ai1";
+            series8.BorderWidth = 3;
+            series8.ChartArea = "ChartArea1";
+            series8.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
+            series8.Color = System.Drawing.Color.Red;
+            series8.Legend = "Legend1";
+            series8.Name = "ai2";
+            this.chart_analog.Series.Add(series7);
+            this.chart_analog.Series.Add(series8);
             this.chart_analog.Size = new System.Drawing.Size(567, 326);
             this.chart_analog.TabIndex = 31;
             this.chart_analog.Text = "chart_analog";
@@ -175,11 +175,12 @@ namespace UpdateKTS
             this.label_okumaSıklıgı.BackColor = System.Drawing.Color.Transparent;
             this.label_okumaSıklıgı.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label_okumaSıklıgı.ForeColor = System.Drawing.Color.Navy;
-            this.label_okumaSıklıgı.Location = new System.Drawing.Point(23, 72);
+            this.label_okumaSıklıgı.Location = new System.Drawing.Point(-5, 72);
             this.label_okumaSıklıgı.Name = "label_okumaSıklıgı";
-            this.label_okumaSıklıgı.Size = new System.Drawing.Size(217, 29);
+            this.label_okumaSıklıgı.Size = new System.Drawing.Size(261, 29);
             this.label_okumaSıklıgı.TabIndex = 27;
-            this.label_okumaSıklıgı.Text = "Veri Okuma Sıklığı:";
+            this.label_okumaSıklıgı.Text = "Data reading frequency";
+            this.label_okumaSıklıgı.Click += new System.EventHandler(this.label_okumaSıklıgı_Click);
             // 
             // label_analog
             // 
@@ -189,9 +190,9 @@ namespace UpdateKTS
             this.label_analog.ForeColor = System.Drawing.Color.Navy;
             this.label_analog.Location = new System.Drawing.Point(23, 258);
             this.label_analog.Name = "label_analog";
-            this.label_analog.Size = new System.Drawing.Size(186, 29);
+            this.label_analog.Size = new System.Drawing.Size(180, 29);
             this.label_analog.TabIndex = 19;
-            this.label_analog.Text = "Analog Değer 1:";
+            this.label_analog.Text = "Analog Value 1:";
             // 
             // textBox_analog2
             // 
@@ -217,9 +218,9 @@ namespace UpdateKTS
             this.label_analog2.ForeColor = System.Drawing.Color.Navy;
             this.label_analog2.Location = new System.Drawing.Point(23, 332);
             this.label_analog2.Name = "label_analog2";
-            this.label_analog2.Size = new System.Drawing.Size(186, 29);
+            this.label_analog2.Size = new System.Drawing.Size(180, 29);
             this.label_analog2.TabIndex = 24;
-            this.label_analog2.Text = "Analog Değer 2:";
+            this.label_analog2.Text = "Analog Value 2:";
             // 
             // button_analogDur
             // 
@@ -264,7 +265,7 @@ namespace UpdateKTS
             this.groupBox_dijital.Size = new System.Drawing.Size(611, 960);
             this.groupBox_dijital.TabIndex = 19;
             this.groupBox_dijital.TabStop = false;
-            this.groupBox_dijital.Text = "Dijital Değer";
+            this.groupBox_dijital.Text = "Digital Value";
             // 
             // button_anaSayfa
             // 
@@ -280,19 +281,19 @@ namespace UpdateKTS
             // 
             // chart_dijital
             // 
-            chartArea4.Name = "ChartArea1";
-            this.chart_dijital.ChartAreas.Add(chartArea4);
-            legend4.Name = "Legend1";
-            this.chart_dijital.Legends.Add(legend4);
+            chartArea6.Name = "ChartArea1";
+            this.chart_dijital.ChartAreas.Add(chartArea6);
+            legend6.Name = "Legend1";
+            this.chart_dijital.Legends.Add(legend6);
             this.chart_dijital.Location = new System.Drawing.Point(6, 306);
             this.chart_dijital.Name = "chart_dijital";
-            series6.BorderWidth = 3;
-            series6.ChartArea = "ChartArea1";
-            series6.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
-            series6.Color = System.Drawing.Color.Navy;
-            series6.Legend = "Legend1";
-            series6.Name = "di1";
-            this.chart_dijital.Series.Add(series6);
+            series9.BorderWidth = 3;
+            series9.ChartArea = "ChartArea1";
+            series9.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
+            series9.Color = System.Drawing.Color.Navy;
+            series9.Legend = "Legend1";
+            series9.Name = "di1";
+            this.chart_dijital.Series.Add(series9);
             this.chart_dijital.Size = new System.Drawing.Size(567, 326);
             this.chart_dijital.TabIndex = 32;
             this.chart_dijital.Text = "chart_dijital";
@@ -304,9 +305,9 @@ namespace UpdateKTS
             this.label_dijital.ForeColor = System.Drawing.Color.Navy;
             this.label_dijital.Location = new System.Drawing.Point(11, 75);
             this.label_dijital.Name = "label_dijital";
-            this.label_dijital.Size = new System.Drawing.Size(152, 29);
+            this.label_dijital.Size = new System.Drawing.Size(146, 29);
             this.label_dijital.TabIndex = 1;
-            this.label_dijital.Text = "Dijital Değer:";
+            this.label_dijital.Text = "Dijital Value:";
             // 
             // textBox_dijital
             // 
@@ -349,9 +350,9 @@ namespace UpdateKTS
             this.label_dijitalChart.ForeColor = System.Drawing.Color.Navy;
             this.label_dijitalChart.Location = new System.Drawing.Point(6, 278);
             this.label_dijitalChart.Name = "label_dijitalChart";
-            this.label_dijitalChart.Size = new System.Drawing.Size(195, 25);
+            this.label_dijitalChart.Size = new System.Drawing.Size(196, 25);
             this.label_dijitalChart.TabIndex = 11;
-            this.label_dijitalChart.Text = "Dijital Değer Değişimi";
+            this.label_dijitalChart.Text = "Digital Value Change";
             // 
             // dataGridView_analogTable
             // 

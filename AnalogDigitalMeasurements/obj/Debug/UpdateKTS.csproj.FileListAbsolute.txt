@@ -14,3 +14,11 @@ D:\staj\UpdateKTS\obj\Debug\UpdateKTS.csproj.CoreCompileInputs.cache
 D:\staj\UpdateKTS\obj\Debug\UpdateKTS.csproj.CopyComplete
 D:\staj\UpdateKTS\obj\Debug\UpdateKTS.exe
 D:\staj\UpdateKTS\obj\Debug\UpdateKTS.pdb
+D:\EmbeddedSystems-AnalogDigitalMeasurement\AnalogDigitalMeasurements\obj\Debug\UpdateKTS.csproj.AssemblyReference.cache
+D:\EmbeddedSystems-AnalogDigitalMeasurement\AnalogDigitalMeasurements\obj\Debug\UpdateKTS.Form1.resources
+D:\EmbeddedSystems-AnalogDigitalMeasurement\AnalogDigitalMeasurements\obj\Debug\UpdateKTS.Form2.resources
+D:\EmbeddedSystems-AnalogDigitalMeasurement\AnalogDigitalMeasurements\obj\Debug\UpdateKTS.Properties.Resources.resources
+D:\EmbeddedSystems-AnalogDigitalMeasurement\AnalogDigitalMeasurements\obj\Debug\UpdateKTS.csproj.GenerateResource.cache
+D:\EmbeddedSystems-AnalogDigitalMeasurement\AnalogDigitalMeasurements\obj\Debug\UpdateKTS.csproj.CoreCompileInputs.cache
+D:\EmbeddedSystems-AnalogDigitalMeasurement\AnalogDigitalMeasurements\obj\Debug\UpdateKTS.exe
+D:\EmbeddedSystems-AnalogDigitalMeasurement\AnalogDigitalMeasurements\obj\Debug\UpdateKTS.pdb

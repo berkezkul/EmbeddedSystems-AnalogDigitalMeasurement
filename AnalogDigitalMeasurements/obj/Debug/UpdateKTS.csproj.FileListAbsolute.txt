@@ -1,0 +1,16 @@
+D:\staj\UpdateKTS\bin\Debug\UpdateKTS.exe.config
+D:\staj\UpdateKTS\bin\Debug\UpdateKTS.exe
+D:\staj\UpdateKTS\bin\Debug\UpdateKTS.pdb
+D:\staj\UpdateKTS\bin\Debug\NationalInstruments.DAQmx.dll
+D:\staj\UpdateKTS\bin\Debug\NationalInstruments.Common.dll
+D:\staj\UpdateKTS\bin\Debug\NationalInstruments.DAQmx.xml
+D:\staj\UpdateKTS\bin\Debug\NationalInstruments.Common.xml
+D:\staj\UpdateKTS\obj\Debug\UpdateKTS.csproj.AssemblyReference.cache
+D:\staj\UpdateKTS\obj\Debug\UpdateKTS.Form1.resources
+D:\staj\UpdateKTS\obj\Debug\UpdateKTS.Form2.resources
+D:\staj\UpdateKTS\obj\Debug\UpdateKTS.Properties.Resources.resources
+D:\staj\UpdateKTS\obj\Debug\UpdateKTS.csproj.GenerateResource.cache
+D:\staj\UpdateKTS\obj\Debug\UpdateKTS.csproj.CoreCompileInputs.cache
+D:\staj\UpdateKTS\obj\Debug\UpdateKTS.csproj.CopyComplete
+D:\staj\UpdateKTS\obj\Debug\UpdateKTS.exe
+D:\staj\UpdateKTS\obj\Debug\UpdateKTS.pdb

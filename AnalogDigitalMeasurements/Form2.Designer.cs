@@ -30,13 +30,13 @@ namespace UpdateKTS
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea5 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend5 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series7 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.Series series8 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea6 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend6 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series9 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea7 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend7 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series10 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.Series series11 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea8 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend8 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series12 = new System.Windows.Forms.DataVisualization.Charting.Series();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.groupBox_analog = new System.Windows.Forms.GroupBox();
             this.chart_analog = new System.Windows.Forms.DataVisualization.Charting.Chart();
@@ -116,26 +116,26 @@ namespace UpdateKTS
             // 
             // chart_analog
             // 
-            chartArea5.Name = "ChartArea1";
-            this.chart_analog.ChartAreas.Add(chartArea5);
-            legend5.Name = "Legend1";
-            this.chart_analog.Legends.Add(legend5);
+            chartArea7.Name = "ChartArea1";
+            this.chart_analog.ChartAreas.Add(chartArea7);
+            legend7.Name = "Legend1";
+            this.chart_analog.Legends.Add(legend7);
             this.chart_analog.Location = new System.Drawing.Point(0, 531);
             this.chart_analog.Name = "chart_analog";
-            series7.BorderWidth = 3;
-            series7.ChartArea = "ChartArea1";
-            series7.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
-            series7.Color = System.Drawing.Color.Navy;
-            series7.Legend = "Legend1";
-            series7.Name = "ai1";
-            series8.BorderWidth = 3;
-            series8.ChartArea = "ChartArea1";
-            series8.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
-            series8.Color = System.Drawing.Color.Red;
-            series8.Legend = "Legend1";
-            series8.Name = "ai2";
-            this.chart_analog.Series.Add(series7);
-            this.chart_analog.Series.Add(series8);
+            series10.BorderWidth = 3;
+            series10.ChartArea = "ChartArea1";
+            series10.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
+            series10.Color = System.Drawing.Color.Navy;
+            series10.Legend = "Legend1";
+            series10.Name = "ai1";
+            series11.BorderWidth = 3;
+            series11.ChartArea = "ChartArea1";
+            series11.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
+            series11.Color = System.Drawing.Color.Red;
+            series11.Legend = "Legend1";
+            series11.Name = "ai2";
+            this.chart_analog.Series.Add(series10);
+            this.chart_analog.Series.Add(series11);
             this.chart_analog.Size = new System.Drawing.Size(567, 326);
             this.chart_analog.TabIndex = 31;
             this.chart_analog.Text = "chart_analog";
@@ -231,7 +231,7 @@ namespace UpdateKTS
             this.button_analogDur.Name = "button_analogDur";
             this.button_analogDur.Size = new System.Drawing.Size(106, 48);
             this.button_analogDur.TabIndex = 22;
-            this.button_analogDur.Text = "Durdur";
+            this.button_analogDur.Text = "Stop";
             this.button_analogDur.UseVisualStyleBackColor = false;
             this.button_analogDur.Click += new System.EventHandler(this.button_analogDur_Click);
             // 
@@ -244,7 +244,7 @@ namespace UpdateKTS
             this.button_analogOku.Name = "button_analogOku";
             this.button_analogOku.Size = new System.Drawing.Size(85, 43);
             this.button_analogOku.TabIndex = 21;
-            this.button_analogOku.Text = "Oku";
+            this.button_analogOku.Text = "Read";
             this.button_analogOku.UseVisualStyleBackColor = false;
             this.button_analogOku.Click += new System.EventHandler(this.button_analogOku_Click);
             // 
@@ -281,19 +281,19 @@ namespace UpdateKTS
             // 
             // chart_dijital
             // 
-            chartArea6.Name = "ChartArea1";
-            this.chart_dijital.ChartAreas.Add(chartArea6);
-            legend6.Name = "Legend1";
-            this.chart_dijital.Legends.Add(legend6);
+            chartArea8.Name = "ChartArea1";
+            this.chart_dijital.ChartAreas.Add(chartArea8);
+            legend8.Name = "Legend1";
+            this.chart_dijital.Legends.Add(legend8);
             this.chart_dijital.Location = new System.Drawing.Point(6, 306);
             this.chart_dijital.Name = "chart_dijital";
-            series9.BorderWidth = 3;
-            series9.ChartArea = "ChartArea1";
-            series9.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
-            series9.Color = System.Drawing.Color.Navy;
-            series9.Legend = "Legend1";
-            series9.Name = "di1";
-            this.chart_dijital.Series.Add(series9);
+            series12.BorderWidth = 3;
+            series12.ChartArea = "ChartArea1";
+            series12.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
+            series12.Color = System.Drawing.Color.Navy;
+            series12.Legend = "Legend1";
+            series12.Name = "di1";
+            this.chart_dijital.Series.Add(series12);
             this.chart_dijital.Size = new System.Drawing.Size(567, 326);
             this.chart_dijital.TabIndex = 32;
             this.chart_dijital.Text = "chart_dijital";
@@ -326,7 +326,7 @@ namespace UpdateKTS
             this.button_dijitalOku.Name = "button_dijitalOku";
             this.button_dijitalOku.Size = new System.Drawing.Size(94, 48);
             this.button_dijitalOku.TabIndex = 5;
-            this.button_dijitalOku.Text = "Oku";
+            this.button_dijitalOku.Text = "Read";
             this.button_dijitalOku.UseVisualStyleBackColor = false;
             this.button_dijitalOku.Click += new System.EventHandler(this.button_dijitalOku_Click);
             // 
@@ -339,7 +339,7 @@ namespace UpdateKTS
             this.button_dijitalDur.Name = "button_dijitalDur";
             this.button_dijitalDur.Size = new System.Drawing.Size(106, 48);
             this.button_dijitalDur.TabIndex = 7;
-            this.button_dijitalDur.Text = "Durdur";
+            this.button_dijitalDur.Text = "Stop";
             this.button_dijitalDur.UseVisualStyleBackColor = false;
             this.button_dijitalDur.Click += new System.EventHandler(this.button_dijitalDur_Click);
             // 
